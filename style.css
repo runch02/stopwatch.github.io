@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+button, a, input, textarea, * {
+    outline: none;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#theme {
+    color: gray;
+    background: #121212;
+    border: hidden;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-weight: 400;
+    position: absolute;
+    z-index: 1;
+    top: 1rem;
+    left: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 270px;
+    height: 200px;
+    border-radius: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: 0.5rem;
+    /* font-family: "Poppins", sans-serif; */
+}
+
+.root .watch-section {
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+.root .watch-section #milisecond {
+    font-size: 1.5rem;
+}
+
+.root .button-section {
+    margin-bottom: 0.5rem;
+}
+
+.root .button-section button{
+    color: black;
+    background: linear-gradient(darkcyan, darkslategray);
+    border: hidden;
+    outline: none;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    margin: 0.25rem;
+}
+
+
+footer a {
+    color: black;
+    font-weight: 700;
+    background: linear-gradient(darkslategray, darkcyan);
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    padding: 0.25rem;
+    border-radius: 0.2rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+}
